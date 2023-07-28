@@ -49,6 +49,63 @@
     </style>
 </head>
 <body class="font-family">
-    
+        <!-- ---- header section ---  -->
+        <header class="lg:pl-52 lg:pr-52">
+            <!-- ---- navbar section ---  -->
+            <nav className="">
+              <div
+                class="flex justify-around flex-row-reverse lg:flex-row navbar lg:bg-nav-color lg:text-white rounded-full lg:mt-12 lg:mb-12"
+              >
+                <div class="">
+                  <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16"
+                        />
+                      </svg>
+                    </label>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-nav-color rounded-box"
+                    >
+                      <li><a>Home</a></li>
+                      <li>
+                        <a>About Us</a>
+                      </li>
+                      <li><a>Shop</a></li>
+                      <li><a>All Fruits</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 gap-5">
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Shop</li>
+                    <li>All Fruits</li>
+                  </ul>
+                </div>
+      
+                <div>
+                  <img src="./images/logo.png" alt="Fruit" />
+                  <h3>Fruit Burst</h3>
+                </div>
+      
+                <div class="rounded-full bg-white lg:block hidden md:pl-5 md:pr-5">
+                  <input type="text" placeholder="Search here" />
+                  <i class="fa-solid fa-magnifying-glass text-black"></i>
+                </div>
+              </div>
+            </nav>
 </body>
 </html>
